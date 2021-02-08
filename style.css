@@ -1,0 +1,51 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url("./laptop.jpg") no-repeat center center/cover fixed;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background: rgb(9, 145, 145);
+  border-color: rgb(9, 145, 145);
+  color: #e2dbdb;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: rgb(9, 145, 145);
+  border-width: 2px;
+  color: #e2dbdb;
+}
+
+.btn-primary:active,
+.btn-primary:visited {
+  color: rgb(9, 145, 145);
+}
+
+.buffer {
+  height: 20rem;
+}
+
+.horizontal {
+  padding-top: 5px;
+  width: 200px;
+  border-bottom: 5px solid #e2dbdb;
+  margin: auto;
+}
